@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'adminNew';
+  sideBar=true
+  isSidebarToggle(){
+    this.sideBar=!this.sideBar
+
+  }
 }
